@@ -23,6 +23,6 @@
 <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
 <?php wp_head(); ?>
 </head> 
- <body class="page-body">
+ <body class="page-body black">
     <div class="page-container">
       

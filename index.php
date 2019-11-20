@@ -15,7 +15,7 @@ include( 'templates/header-nav.php' );
 ?>
 <div class="main-content">
   <nav class="navbar user-info-navbar" role="navigation">
-    <div style="position: absolute;background: #fff;width: 100%;box-shadow: 0 5px 20px rgba(0,0,0,.05);padding-bottom:1px;">
+    <div class="navbar-content">
       <ul class="user-info-menu left-links list-inline list-unstyled">
         <li class="hidden-sm hidden-xs">
             <a href="#" data-toggle="sidebar">
@@ -29,7 +29,6 @@ include( 'templates/header-nav.php' );
         </li>
       </ul>
     </div>
-    <a href="https://github.com/owen0o0/WebStack" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
   </nav>
 <?php
 if(io_get_option('is_search')){include('search-tool.php'); }
